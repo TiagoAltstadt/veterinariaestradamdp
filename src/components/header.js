@@ -15,17 +15,17 @@ function Header() {
   return (
     <div className="topnav">
       {/*----Logo----*/}
-      <a href="#home" className="headerLogo">
+      <div className="headerLogo">
+      <a href="/home" >
         <img className="headerImage" src={img}></img>
       </a>
+      </div>
 
       {/*----Links----*/}
       <div id="myLinks">
-        <a href="#Inicio">
-          Inicio<i class="fas fa-paw"></i>
-        </a>
-        <a href="#turnos">Turnos</a>
-        <a href="#contacto">Contacto</a>
+        <a href="/home">Inicio<i class="fas fa-paw"></i></a>
+        <a href="/appointments">Turnos</a>
+        <a href="/contact">Contacto</a>
       </div>
 
       {/*----Links Button----*/}

@@ -3,10 +3,14 @@
 /*--------App--------*/
 
 .App {
+  --primary-color:  rgb(226, 108, 210);
+  --secondary-color: pink;
+
   font-family: 'Cedarville Cursive', cursive;
   text-align: center;
-  background-color: pink;
+  background-color: var(--secondary-color);
   height: 100vh;
+
 }
 
 /*--------Header--------*/
@@ -18,23 +22,25 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-color: rgb(226, 108, 210);
+  background-color: var(--primary-color);
 }
 
 .headerLogo{
-  display: block;
-  box-sizing: border-box;
-
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   padding: 0%;
   margin: 0%;
 }
 .headerImage{
   border-radius: 50px;
+  justify-self: left;
   width: 20vw;
-  margin: 0%;
+  margin: 0.1rem 0%;
+  margin-left: 0.5rem;
 }
 .headerHamburguer{
-  background-color: rgb(226, 108, 210);
+  background-color: var(--primary-color);
   margin: 0%;
   padding-right: 2vw;
   line-height: 10vh;
@@ -56,7 +62,7 @@
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
+  background:  var(--primary-color);
   display: block;
   position: absolute;
   right: 0;
@@ -68,7 +74,7 @@
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: violet;
   color: black;
 }
 
@@ -95,6 +101,13 @@
 
 .homeCarouselImage{
   width: 100%;
+}
+
+.homeCarouselTitle{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.homeCarouselDescription{
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .homeVeteInfo{
