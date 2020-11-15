@@ -1,8 +1,8 @@
 import './public/css/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/header.js';
-import Home from './components/home.js';
 import Footer from './components/footer.js';
+
 
 <link
   rel="stylesheet"
@@ -16,7 +16,6 @@ function App() {
     <div className="App">
       
       <Header/>
-      <Home/>
       <Footer/>
 
     </div>

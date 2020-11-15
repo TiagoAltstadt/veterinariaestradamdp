@@ -1,7 +1,22 @@
+/*----Vistas----*/
+import Home from './home.js';
+import AboutUs from './aboutUs.js';
+import Mission from './mission.js';
+import Location from './location.js';
+import Appointments from './appointments.js';
+
+/*----Media----*/
 import img from "../public/images/veterinariaestradamdpLogo.jpg";
 
+/*----React-router-dom----*/
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from 'react-router-dom';
+
 function Header() {
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  />;
 
   function myFunction() {
     var x = document.getElementById("myLinks");
@@ -13,7 +28,9 @@ function Header() {
   }
 
   return (
+
     <div className="topnav">
+      <Router>
       {/*----Logo----*/}
       <div className="headerLogo">
       <a href="/home" >
@@ -23,10 +40,13 @@ function Header() {
 
       {/*----Links----*/}
       <div id="myLinks">
-        <a href="/home">Inicio<i class="fas fa-paw"></i></a>
-        <a href="/appointments">Turnos</a>
-        <a href="/contact">Contacto</a>
+        <Link to='/'>Home</Link>
+        <Link to='/aboutUs'>¿Quienes somos?</Link>
+        <Link to='/mission'>¿Que hacemos?</Link>
+        <Link to='/location'>Ubicacion</Link>
+        <Link to='/appointments'>Turnos</Link>
       </div>
+      
 
       {/*----Links Button----*/}
       <a
@@ -36,6 +56,29 @@ function Header() {
       >
         <p className="headerHamburguer">🐾</p>
       </a>
+      
+        
+      
+        <Switch>
+          <Route exact path='/'>
+            <Home/>
+          </Route>
+          <Route path='/aboutUs'>
+            <AboutUs/>
+          </Route>
+          <Route path='/mission'>
+            <Mission/>
+          </Route>
+          <Route path='/location'>
+            <Location/>
+          </Route>
+          <Route path='/appointments'>
+            <Appointments/>
+          </Route>
+        </Switch>
+      </Router>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  />;
     </div>
   );
 }
