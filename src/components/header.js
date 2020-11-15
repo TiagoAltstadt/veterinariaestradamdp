@@ -1,19 +1,36 @@
+import img from '../public/images/veterinariaestradamdpLogo.jpg';
 function Header() {
-  return (
-    <div className="Header">
-      
-      <section className="headerTitle">
-        <h1><a href='/'>Veterinaria Estrada</a></h1>
-      </section>
-      <section className="headerNavbar">
-        <div className="headerNavbarOption"> <a href='/'> Home </a></div>
-        <div className="headerNavbarOption"> <a href='/'> Turnos</a></div>
-        <div className="headerNavbarOption"> <a href='/'> Acerca-de</a></div>
-        <div className="headerNavbarOption"> <a href='/'> Contacto</a></div>
-        <div className="headerNavbarOption"> <a href='/'> Banana</a></div>
-      </section>
 
-    </div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  
+
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
+  return (  
+      <div className="topnav">
+
+        {/*----Logo----*/}
+        <a href="#home"  className="headerLogo"><img className="headerImage" src= {img}></img></a>
+
+        {/*----Links----*/}
+        <div id="myLinks">
+          <a href="#Inicio">Inicio<i class="fas fa-paw"></i></a>
+          <a href="#turnos">Turnos</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+
+        {/*----Links Button----*/}
+        <a href="javascript:void(0);" className="icon" onClick = {()=> myFunction()} >
+          <i className="fa fa-bars" />X
+        </a>
+      </div>
   );
 }
 
