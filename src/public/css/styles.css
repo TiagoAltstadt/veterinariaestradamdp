@@ -33,6 +33,13 @@
   width: 20vw;
   margin: 0%;
 }
+.headerHamburguer{
+  background-color: rgb(226, 108, 210);
+  margin: 0%;
+  padding-right: 2vw;
+  line-height: 10vh;
+  font-size: x-large;
+}
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
@@ -90,13 +97,67 @@
   width: 100%;
 }
 
-.homeMap{
-  display: block;
-  box-sizing: border-box;
-  width: 45vw;
-
+.homeVeteInfo{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100vw;
+  margin-top: 1rem;
 }
 
 .homeMapImage{
-  width: 100%;
+  width: 45%;
+  margin: 1rem auto;
 }
+.homeVeteImage{
+  width: 45%;
+  margin: auto;
+}
+
+/*----Footer----*/
+
+.Footer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100vw;
+  height: fit-content;
+  background-color: black;
+}
+
+  .footerLeft{
+    display: block;
+    box-sizing: border-box;
+    width: 50vw;
+    margin: 0%;
+  }
+    .footerSNcontainer{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin: 0%;
+      color: white;
+      width: fit-content;
+    }
+      .footerSNcontainer p {
+        width: fit-content;
+        margin: auto 0%;
+      }
+      .footerSNimage{
+        width: 10vw;
+        margin: 0%;
+      }
+
+  .footerRight{
+    display: block;
+    box-sizing: border-box;
+    width: 49vw;
+    margin: 0%;
+  }
+  .footerRight p{
+    font-size: x-small;
+    color: white;
+    width: fit-content;
+    justify-self: left;
+    margin: 0%;  
+  }
