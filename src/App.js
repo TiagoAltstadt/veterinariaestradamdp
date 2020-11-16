@@ -3,12 +3,7 @@ import "./public/css/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/header.js";
 import Footer from "./components/footer.js";
-import {
-  GoogleMap,
-  useLoadScript,
-  Marker,
-  InfoWindow,
-} from "@react-google-maps/api";
+
 
 /* api google maps: AIzaSyAMFQlsVHkIZgXobf-CdYQEGNdvkxTaCZs */
 <link
@@ -19,23 +14,6 @@ import {
 />;
 
 function App() {
-  const libraries = ["places"];
-  const mapContainerStyle = {
-    width: "100vw",
-    height: "20vh",
-  };
-  const center = {
-    lat: -37.9519,
-    lng: -57.55416,
-  };
-  const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyAMFQlsVHkIZgXobf-CdYQEGNdvkxTaCZs",
-    libraries,
-  });
-
-  if (loadError) return "Error loading maps";
-  if (!isLoaded) return "Loading maps";
-
   return (
     <div className="App">
       <Header />
