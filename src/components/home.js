@@ -3,7 +3,11 @@ import map from "../public/images/map.JPG";
 import clinica from '../public/images/clinica.jpg';
 import CarouselOK from './carousel.js';
 
+
 function Home() {
+
+  
+
   return (
     <section className="Home">
 
