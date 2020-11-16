@@ -39,20 +39,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <GoogleMap
-        mapContainerStyle={mapContainerStyle}
-        zoom={15}
-        center={center}
-      >
-        <Marker
-          key="Veterinaria Estrada"
-          position={{
-            lat: -37.9519,
-    lng: -57.55416,
-          }}
-        />
-      </GoogleMap>
-
       <Footer />
     </div>
   );

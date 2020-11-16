@@ -2,6 +2,8 @@
 import map from "../public/images/map.JPG";
 import clinica from '../public/images/clinica.jpg';
 import CarouselOK from './carousel.js';
+import Map from './map.js';
+
 
 
 function Home() {
@@ -14,8 +16,8 @@ function Home() {
       <CarouselOK/>
       
       <div className="homeVeteInfo">
-        <img className="homeMapImage" src={map}></img>
         <img className="homeVeteImage" src={clinica}></img>
+        <Map/>
       </div>
       <div></div>
     </section>
