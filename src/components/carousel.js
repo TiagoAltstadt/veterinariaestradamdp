@@ -4,13 +4,13 @@ import carousel1 from "../public/images/nico.jpg";
 import carousel2 from "../public/images/cris.jpg";
 import carousel3 from "../public/images/3.jpg";
 
-    const title1 = 'Titulo 1';
+    const title1 = 'Nico';
     const description1 = 'descripcion 1';
 
-    const title2 = 'Titulo 2';
+    const title2 = 'Cris';
     const description2 = 'descripcion 2';
 
-    const title3 = 'Titulo 3';
+    const title3 = 'Charly';
     const description3 = 'descripcion 3';
 
 function CarouselOK(){

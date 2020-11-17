@@ -1,90 +1,87 @@
 
 
-/*--------App--------*/
+/*------------------------------------------------------------App------------------------------------------------------------*/
 
 .App {
   --primary-color:  rgb(226, 108, 210);
   --secondary-color: pink;
 
-  font-family: 'Cedarville Cursive', cursive;
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
   background-color: var(--secondary-color);
   height: 100vh;
 
 }
 
-/*--------Header--------*/
+/*------------------------------------------------------------Header------------------------------------------------------------*/
 
 /* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  background-color: var(--primary-color);
-}
+.body {}
+  .header{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: var(--primary-color);
 
-.headerLogo{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding: 0%;
-  margin: 0%;
-}
-.headerImage{
-  border-radius: 50px;
-  justify-self: left;
-  width: 20vw;
-  margin: 0.1rem 0%;
-  margin-left: 0.5rem;
-}
-.headerHamburguer{
-  background-color: var(--primary-color);
-  margin: 0%;
-  padding-right: 2vw;
-  line-height: 10vh;
-  font-size: x-large;
-}
+  }
+    .headerLogo{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      padding: 0%;
+      margin: 0%;
+    }
+      .headerImage{
+        border-radius: 50px;
+        justify-self: left;
+        width: 15vw;
+        margin: 0.1rem 0%;
+        margin-left: 0.5rem;
+      }
+    .headerHamburguer{
+      background-color: var(--primary-color);
+      margin: 0%;
+      padding-right: 2vw;
+      line-height: 10vh;
+      font-size: x-large;
+    }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
-}
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .body #myLinks {
+    display: none;
+  }
 
-/* Style navigation menu links */
-.topnav a {
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
+  /* Style navigation menu links */
+  .body a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
 
-/* Style the hamburger menu */
-.topnav a.icon {
-  background:  var(--primary-color);
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-.fa-paw{
-  color: black;
-}
+  /* Style the hamburger menu */
+  .body a.icon {
+    background:  var(--primary-color);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .fa-paw{
+    color: var(--primary-color);
+  }
 
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: violet;
-  color: black;
-}
+  /* Add a grey background color on mouse-over */
+  .body a:hover {
+    background-color: violet;
+    color: black;
+  }
 
-/* Style the active link (or home/logo) */
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
 
-/*----Home----*/
+
+/*------------------------------------------------------------Home------------------------------------------------------------*/
 
 .Home{
   display: flex;
@@ -93,37 +90,36 @@
   margin: 1rem 0%;
 }
 
-.homeCarousel{
-  display: block;
-  box-sizing: border-box;
-  width: 100vw;
-}
+  .homeCarousel{
+    display: block;
+    box-sizing: border-box;
+    width: 100vw;
+  }
+    .homeCarouselImage{
+      width: 100%;
+    }
+    .homeCarouselTitle{
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .homeCarouselDescription{
+      background-color: rgba(0, 0, 0, 0.5);
+    }
 
-.homeCarouselImage{
-  width: 100%;
-}
+  .homeVeteInfo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+    height: 20vh;
+    margin-top: 1rem;
+    justify-content: space-between;
+  }
+  .homeAptButton{
+    margin: 3rem 2.5rem;
+  }
 
-.homeCarouselTitle{
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.homeCarouselDescription{
-  background-color: rgba(0, 0, 0, 0.5);
-}
 
-.homeVeteInfo{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  width: 100vw;
-  margin-top: 1rem;
-}
-
-.homeVeteImage{
-  width: 45%;
-  margin: auto;
-}
-
-/*----Footer----*/
+/*------------------------------------------------------------Footer------------------------------------------------------------*/
 
 .Footer{
   display: flex;
@@ -141,6 +137,7 @@
     margin: 0%;
   }
     .footerSNcontainer{
+      font-family: 'Comfortaa', cursive;
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;

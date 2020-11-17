@@ -11,7 +11,8 @@ import {
     const libraries = ["places"];
     const mapContainerStyle = {
       width: "45%",
-      margin: "0rem auto"
+      heigth: "30vh",
+      margin: "0rem auto",
     };
     const center = {
       lat: -37.9519,
