@@ -117,11 +117,61 @@
   .homeAptButton{
     margin: 3rem 2.5rem;
   }
+/*------------------------------------------------------------About Us------------------------------------------------------------*/
+.AboutUs{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 1rem 0%;
+}
+  .aboutUsBadges{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+    /*---------------------------------About Us---------------------------------*/
+        .Badge{
+          display: block;
+          box-sizing: border-box;
+          margin: 2.5vh 2vw;
+          background-color: black;
+          width: 45vw;
+          height: 34vh;
+        }
+        .badgeImage{
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          width: 45vw;
+          height: 19vh;
+          background-color: red;
+        }
+          .badgeFile{
+            width: 45vw; 
+            height: 19vh; 
+            object-fit: cover;
+          }
+        .badgeName{
+          font-family: 'Cinzel', serif;
+          font-size: larger;
+          color: white;
+        }
+        .badgeRol{
+          color: grey;
+          
+        }
+        .badgeDescription{
+          padding: 0px 1rem;
+          color: white;
+          font-size: small;
+        }
 
 
 /*------------------------------------------------------------Footer------------------------------------------------------------*/
 
 .Footer{
+  
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;

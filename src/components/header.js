@@ -5,7 +5,6 @@ import Mission from "./mission.js";
 import Location from "./location.js";
 import Appointments from "./appointments.js";
 
-
 /*----Media----*/
 import img from "../public/images/veterinariaestradamdpLogo.jpg";
 
