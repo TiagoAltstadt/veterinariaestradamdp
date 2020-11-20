@@ -40,7 +40,6 @@ function Header() {
           <Link to="/aboutUs">¿Quienes somos?</Link>
           <Link to="/mission">¿Que hacemos?</Link>
           <Link to="/location">Ubicacion</Link>
-          <Link to="/appointments">Turnos</Link>
         </div>
 
         {/*----Links Button----*/}

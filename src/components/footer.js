@@ -21,14 +21,12 @@ function Footer() {
       </div>
       <div className="footerRight">
         <p>Clínica Veterinaria Estrada. </p>
-          <p>🐾 Mar del Plata </p>
-          <p>🐾 Av.José Manuel Estrada 5824</p>
           <p>🐾Clínica Gral </p>
           <p>🐾Cirugía </p>
           <p>🐾Traumatología. </p>
           <p>🐾Citología.</p>
           <p>🐾Laboratorio básico. </p>
-          <p>🐾 Diagnóstico por imág</p>
+          <p>🐾Diagnóstico por imágenes.</p>
       </div>
     </section>
   );

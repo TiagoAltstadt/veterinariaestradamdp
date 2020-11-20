@@ -7,13 +7,13 @@ import {
 } from "@react-google-maps/api";
 /* api google maps: AIzaSyAMFQlsVHkIZgXobf-CdYQEGNdvkxTaCZs */
 
-function Map() {
+function BigMap() {
   const libraries = ["places"];
   const mapContainerStyle = {
     display: "block",
     boxsizing: "border-box",
-    width: "40vw",
-    heigth: "25vh",
+    width: "100vw",
+    heigth: "auto",
     
   };
   const center = {
@@ -40,4 +40,4 @@ function Map() {
     </GoogleMap>
   );
 }
-export default Map;
+export default BigMap;
