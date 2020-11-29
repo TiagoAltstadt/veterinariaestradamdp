@@ -29,7 +29,7 @@ function Header() {
         <section className="header">
           {/*----Logo----*/}
         <div className="headerLogo">
-          <Link to="/">
+          <Link to="/veterinariaestradamdp/">
             <img className="headerImage" src={img}></img>
           </Link>
         </div>
@@ -53,19 +53,19 @@ function Header() {
         </section>
 
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/veterinariaestradamdp/">
             <Home />
           </Route>
-          <Route path="/aboutUs">
+          <Route path="/veterinariaestradamdp/aboutUs">
             <AboutUs />
           </Route>
-          <Route path="/mission">
+          <Route path="/veterinariaestradamdp/mission">
             <Mission />
           </Route>
-          <Route path="/location">
+          <Route path="/veterinariaestradamdp/location">
             <Location />
           </Route>
-          <Route path="/appointments">
+          <Route path="/veterinariaestradamdp/appointments">
             <Appointments />
           </Route>
         </Switch>
