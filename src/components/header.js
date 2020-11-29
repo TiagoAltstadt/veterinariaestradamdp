@@ -36,7 +36,7 @@ function Header() {
 
         {/*----Links----*/}
         <div id="myLinks">
-          <Link to="/">Home</Link>
+          <Link to="/">Casa</Link>
           <Link to="/aboutUs">¿Quienes somos?</Link>
           <Link to="/mission">¿Que hacemos?</Link>
           <Link to="/location">Ubicacion</Link>

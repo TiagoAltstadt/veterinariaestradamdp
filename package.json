@@ -1,7 +1,7 @@
 {
   "name": "veterinariaestradamdp",
   "version": "0.1.0",
-  "homepage": "https://TiagoAltstadt.github.io/veterinariaestradamdp/",
+  "homepage": "https://TiagoAltstadt.github.io/veterinariaestradamdp",
   "private": true,
   "dependencies": {
     "@react-google-maps/api": "^1.13.0",
