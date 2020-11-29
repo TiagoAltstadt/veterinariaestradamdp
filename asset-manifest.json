@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/veterinariaestradamdp/static/css/main.213a9514.chunk.css",
-    "main.js": "/veterinariaestradamdp/static/js/main.9a7d2102.chunk.js",
-    "main.js.map": "/veterinariaestradamdp/static/js/main.9a7d2102.chunk.js.map",
+    "main.js": "/veterinariaestradamdp/static/js/main.320914a9.chunk.js",
+    "main.js.map": "/veterinariaestradamdp/static/js/main.320914a9.chunk.js.map",
     "runtime-main.js": "/veterinariaestradamdp/static/js/runtime-main.890f4445.js",
     "runtime-main.js.map": "/veterinariaestradamdp/static/js/runtime-main.890f4445.js.map",
     "static/css/2.1a02f21c.chunk.css": "/veterinariaestradamdp/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.3b9adaaf.chunk.js": "/veterinariaestradamdp/static/js/2.3b9adaaf.chunk.js",
-    "static/js/2.3b9adaaf.chunk.js.map": "/veterinariaestradamdp/static/js/2.3b9adaaf.chunk.js.map",
+    "static/js/2.23f0727e.chunk.js": "/veterinariaestradamdp/static/js/2.23f0727e.chunk.js",
+    "static/js/2.23f0727e.chunk.js.map": "/veterinariaestradamdp/static/js/2.23f0727e.chunk.js.map",
     "static/js/3.7d9787b1.chunk.js": "/veterinariaestradamdp/static/js/3.7d9787b1.chunk.js",
     "static/js/3.7d9787b1.chunk.js.map": "/veterinariaestradamdp/static/js/3.7d9787b1.chunk.js.map",
     "index.html": "/veterinariaestradamdp/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/veterinariaestradamdp/static/css/2.1a02f21c.chunk.css.map",
     "static/css/main.213a9514.chunk.css.map": "/veterinariaestradamdp/static/css/main.213a9514.chunk.css.map",
-    "static/js/2.3b9adaaf.chunk.js.LICENSE.txt": "/veterinariaestradamdp/static/js/2.3b9adaaf.chunk.js.LICENSE.txt",
+    "static/js/2.23f0727e.chunk.js.LICENSE.txt": "/veterinariaestradamdp/static/js/2.23f0727e.chunk.js.LICENSE.txt",
     "static/media/3.7775456b.jpg": "/veterinariaestradamdp/static/media/3.7775456b.jpg",
     "static/media/Tiago.6ee20245.jpg": "/veterinariaestradamdp/static/media/Tiago.6ee20245.jpg",
     "static/media/cris.3655a495.jpg": "/veterinariaestradamdp/static/media/cris.3655a495.jpg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.890f4445.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.3b9adaaf.chunk.js",
+    "static/js/2.23f0727e.chunk.js",
     "static/css/main.213a9514.chunk.css",
-    "static/js/main.9a7d2102.chunk.js"
+    "static/js/main.320914a9.chunk.js"
   ]
 }
