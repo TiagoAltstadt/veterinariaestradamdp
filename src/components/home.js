@@ -7,6 +7,7 @@ function Home() {
     <section className="Home">
       <CarouselOK />
 
+
       <div className="homeVeteInfo">
         <a
           target="_blank"

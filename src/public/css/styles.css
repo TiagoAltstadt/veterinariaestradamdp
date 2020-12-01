@@ -89,6 +89,8 @@
     background-color: violet;
     color: black;
   }
+  
+  
 
 @media all and (min-width:720px){
   .body {}
@@ -195,14 +197,16 @@
   .homeAptLink{
     height: 100%;
     width: 40vw;
-  }
-  .homeAptButton{
-    background-color: blue;
-    align-self: center;
-    justify-self: center;
     align-content: center;
     justify-content: center;
+  }
+  .homeAptButton{
+    display: block;
+    box-sizing: border-box;
+    background-color: blue;
     border-radius: 5px;
+    margin: 0%;
+    height: fit-content;
   }
 
   @media all and (min-width:720px){

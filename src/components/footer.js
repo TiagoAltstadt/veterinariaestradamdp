@@ -6,18 +6,19 @@ function Footer() {
   return (
     <section className="Footer">
       <div className="footerLeft">
-        <div className="footerSNcontainer">
-          <img className="footerSNimage" src={insta}></img>
-          <p>Instagram</p>
-        </div>
-        <div className="footerSNcontainer">
+        
+        <a className="footerSNcontainer" href="https://www.facebook.com/Cl%C3%ADnica-Veterinaria-Nueva-Estrada-2245260169041606/">
           <img className="footerSNimage" src={face}></img>
           <p>Facebook</p>
-        </div>
-        <div className="footerSNcontainer">
+        </a>
+        <a className="footerSNcontainer" href="https://www.facebook.com/Cl%C3%ADnica-Veterinaria-Nueva-Estrada-2245260169041606/">
+          <img className="footerSNimage" src={insta}></img>
+          <p>Instagram</p>
+        </a>
+        <a className="footerSNcontainer" href="https://wa.me/5492235939602">
           <img className="footerSNimage" src={whatsapp}></img>
           <p>Whatsapp</p>
-        </div>
+        </a>
       </div>
       <div className="footerRight">
         <p>Clínica Veterinaria Estrada. </p>
