@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/veterinariaestradamdp/static/css/main.213a9514.chunk.css",
-    "main.js": "/veterinariaestradamdp/static/js/main.fb8e2c86.chunk.js",
-    "main.js.map": "/veterinariaestradamdp/static/js/main.fb8e2c86.chunk.js.map",
+    "main.css": "/veterinariaestradamdp/static/css/main.71ee85c9.chunk.css",
+    "main.js": "/veterinariaestradamdp/static/js/main.025c60a5.chunk.js",
+    "main.js.map": "/veterinariaestradamdp/static/js/main.025c60a5.chunk.js.map",
     "runtime-main.js": "/veterinariaestradamdp/static/js/runtime-main.890f4445.js",
     "runtime-main.js.map": "/veterinariaestradamdp/static/js/runtime-main.890f4445.js.map",
     "static/css/2.1a02f21c.chunk.css": "/veterinariaestradamdp/static/css/2.1a02f21c.chunk.css",
@@ -12,10 +12,10 @@
     "static/js/3.7d9787b1.chunk.js.map": "/veterinariaestradamdp/static/js/3.7d9787b1.chunk.js.map",
     "index.html": "/veterinariaestradamdp/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/veterinariaestradamdp/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.213a9514.chunk.css.map": "/veterinariaestradamdp/static/css/main.213a9514.chunk.css.map",
+    "static/css/main.71ee85c9.chunk.css.map": "/veterinariaestradamdp/static/css/main.71ee85c9.chunk.css.map",
     "static/js/2.23f0727e.chunk.js.LICENSE.txt": "/veterinariaestradamdp/static/js/2.23f0727e.chunk.js.LICENSE.txt",
     "static/media/3.7775456b.jpg": "/veterinariaestradamdp/static/media/3.7775456b.jpg",
-    "static/media/Tiago.6ee20245.jpg": "/veterinariaestradamdp/static/media/Tiago.6ee20245.jpg",
+    "static/media/Default.610cfbb0.jpg": "/veterinariaestradamdp/static/media/Default.610cfbb0.jpg",
     "static/media/cris.3655a495.jpg": "/veterinariaestradamdp/static/media/cris.3655a495.jpg",
     "static/media/face.4e53f6ca.jpg": "/veterinariaestradamdp/static/media/face.4e53f6ca.jpg",
     "static/media/insta.a4884334.jpg": "/veterinariaestradamdp/static/media/insta.a4884334.jpg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.890f4445.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.23f0727e.chunk.js",
-    "static/css/main.213a9514.chunk.css",
-    "static/js/main.fb8e2c86.chunk.js"
+    "static/css/main.71ee85c9.chunk.css",
+    "static/js/main.025c60a5.chunk.js"
   ]
 }
