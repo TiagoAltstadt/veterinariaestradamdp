@@ -10,12 +10,9 @@ function Home() {
       <div className="homeVeteInfo">
         <a
           target="_blank"
-          href="https://my.setmore.com/bookanappointmentv3.do?uniqueKey=de39d67f-dac4-442b-b97d-2899c4b92130"
+          href="https://veterinariaestrada4852.setmore.com/"
           className="homeAptLink"
-        >
-          <div className="homeAptButton btn btn-primary " >
-          <button type="button" class=" btn btn-primary btn-lg">Turnos</button>
-          </div>
+        ><h2 className="homeAptButton">Turnos</h2>
         </a>
         <Map />
       </div>

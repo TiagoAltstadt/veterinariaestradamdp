@@ -11,7 +11,6 @@ import img from "../public/images/veterinariaestradamdpLogo.jpg";
 /*----React-router-dom----*/
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-
 function Header() {
   function myFunction() {
     var x = document.getElementById("myLinks");
@@ -25,31 +24,30 @@ function Header() {
   return (
     <div className="body">
       <Router>
-
         <section className="header">
           {/*----Logo----*/}
-        <div className="headerLogo">
-          <Link to="/veterinariaestradamdp/">
-            <img className="headerImage" src={img}></img>
-          </Link>
-        </div>
+          <div className="headerLogo">
+            <Link to="/veterinariaestradamdp/">
+              <img className="headerImage" src={img}></img>
+            </Link>
+          </div>
 
-        {/*----Links----*/}
-        <div id="myLinks">
-          <Link to="/">Casa</Link>
-          <Link to="/aboutUs">¿Quienes somos?</Link>
-          <Link to="/mission">¿Que hacemos?</Link>
-          <Link to="/location">Ubicacion</Link>
-        </div>
+          {/*----Links----*/}
+          <div id="myLinks">
+            <Link to="/veterinariaestradamdp/">Home</Link>
+            <Link to="/veterinariaestradamdp/aboutUs">¿Quienes somos?</Link>
+            <Link to="/veterinariaestradamdp/mission">¿Que hacemos?</Link>
+            <Link to="/veterinariaestradamdp/location">Ubicacion</Link>
+          </div>
 
-        {/*----Links Button----*/}
-        <a
-          href="javascript:void(0);"
-          className="icon"
-          onClick={() => myFunction()}
-        >
-          <p className="headerHamburguer">🐾</p>
-        </a>
+          {/*----Links Button----*/}
+          <a
+            href="javascript:void(0);"
+            className="icon"
+            onClick={() => myFunction()}
+          >
+            <p className="headerHamburguer">🐾</p>
+          </a>
         </section>
 
         <Switch>

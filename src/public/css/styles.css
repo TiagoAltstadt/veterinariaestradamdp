@@ -1,4 +1,16 @@
 
+/*
+  Min-width: 320px (smaller phone viewpoints)
+  Min-width: 480px (small devices and most phones)
+  Min-width: 768px (most tablets)
+  Min-width: 992px (smaller desktop viewpoints)
+  Min-width: 1200px (large devices and wide screens)
+*/
+
+/*
+  Looks like shit breakpoint:
+  720px
+*/
 
 /*------------------------------------------------------------App------------------------------------------------------------*/
 
@@ -15,7 +27,6 @@
 
 /*------------------------------------------------------------Header------------------------------------------------------------*/
 
-/* Style the navigation menu */
 .body {}
   .header{
     overflow: hidden;
@@ -79,6 +90,70 @@
     color: black;
   }
 
+@media all and (min-width:720px){
+  .body {}
+    .header{
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      background-color: var(--primary-color);
+
+    }
+      .headerLogo{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 0%;
+        margin: 0%;
+      }
+        .headerImage{
+          border-radius: 50px;
+          justify-self: left;
+          width: 107px;
+          margin: 0.1rem 0%;
+          margin-left: 0.5rem;
+        }
+      .headerHamburguer{
+        background-color: var(--primary-color);
+        margin: auto 0%;
+        padding-right: 2vw;
+        line-height: 100%;
+        font-size: xx-large;
+      }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .body #myLinks {
+      display: none;
+    }
+
+    /* Style navigation menu links */
+    .body a {
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+
+    /* Style the hamburger menu */
+    .body a.icon {
+      background:  var(--primary-color);
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .fa-paw{
+      color: var(--primary-color);
+    }
+
+    /* Add a grey background color on mouse-over */
+    .body a:hover {
+      background-color: violet;
+      color: black;
+    }
+}
 
 
 /*------------------------------------------------------------Home------------------------------------------------------------*/
@@ -118,17 +193,61 @@
     padding: 1rem;
   }
   .homeAptLink{
-    display: block;
-    box-sizing: border-box;
-    width: 40vw;
     height: 100%;
-    margin: 0%;
+    width: 40vw;
   }
   .homeAptButton{
-    width: 100%;
-    height: 100%;
+    background-color: blue;
+    align-self: center;
+    justify-self: center;
     align-content: center;
     justify-content: center;
+    border-radius: 5px;
+  }
+
+  @media all and (min-width:720px){
+    .Home{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin:  0%;
+      background-color: var(--secondary-color);
+    }
+    
+        .carousel{
+          width: 710px;
+          margin: 1% auto;
+        }
+        .homeCarouselTitle{
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+        .homeCarouselDescription{
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+    
+      .homeVeteInfo{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100vw;
+        height: 25vh;
+        margin: 0.5rem auto;
+        justify-content: space-between;
+        align-content: space-between;
+        padding: 1rem;
+      }
+      .homeAptLink{
+        height: 100%;
+        width: 40vw;
+      }
+      .homeAptButton{
+        background-color: blue;
+        align-self: center;
+        justify-self: center;
+        align-content: center;
+        justify-content: center;
+        border-radius: 5px;
+      }
   }
 /*------------------------------------------------------------About Us------------------------------------------------------------*/
 .AboutUs{
@@ -149,22 +268,22 @@
         .Badge{
           display: block;
           box-sizing: border-box;
-          margin: 2.5vh 2vw;
+          margin: 1vh 2vw;
           background-color: black;
           width: 45vw;
-          height: 34vh;
+          height: fit-content;
         }
         .badgeImage{
           display: flex;
           flex-wrap: wrap;
           flex-direction: column;
           width: 45vw;
-          height: 19vh;
+          height: fit-content;
           background-color: red;
         }
           .badgeFile{
             width: 45vw; 
-            height: 19vh; 
+            height: fit-content; 
             object-fit: cover;
           }
         .badgeName{
@@ -199,12 +318,14 @@
   .locationText{
     display: block;
     box-sizing: border-box;
-    margin: auto 1%;
+    margin: 1% auto;
   }
 
 /*------------------------------------------------------------Footer------------------------------------------------------------*/
 
 .Footer{
+  position: relative;
+  bottom: 0vh;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
