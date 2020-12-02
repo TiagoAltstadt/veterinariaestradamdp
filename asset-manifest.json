@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/veterinariaestradamdp/static/css/main.ba38d947.chunk.css",
-    "main.js": "/veterinariaestradamdp/static/js/main.4b1beceb.chunk.js",
-    "main.js.map": "/veterinariaestradamdp/static/js/main.4b1beceb.chunk.js.map",
+    "main.css": "/veterinariaestradamdp/static/css/main.0d5a9923.chunk.css",
+    "main.js": "/veterinariaestradamdp/static/js/main.17224be6.chunk.js",
+    "main.js.map": "/veterinariaestradamdp/static/js/main.17224be6.chunk.js.map",
     "runtime-main.js": "/veterinariaestradamdp/static/js/runtime-main.c8585e14.js",
     "runtime-main.js.map": "/veterinariaestradamdp/static/js/runtime-main.c8585e14.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/veterinariaestradamdp/static/css/2.20aa2d7b.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.4f62843f.chunk.js.map": "/veterinariaestradamdp/static/js/3.4f62843f.chunk.js.map",
     "index.html": "/veterinariaestradamdp/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/veterinariaestradamdp/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.ba38d947.chunk.css.map": "/veterinariaestradamdp/static/css/main.ba38d947.chunk.css.map",
+    "static/css/main.0d5a9923.chunk.css.map": "/veterinariaestradamdp/static/css/main.0d5a9923.chunk.css.map",
     "static/js/2.68fc2d30.chunk.js.LICENSE.txt": "/veterinariaestradamdp/static/js/2.68fc2d30.chunk.js.LICENSE.txt",
     "static/media/3.7775456b.jpg": "/veterinariaestradamdp/static/media/3.7775456b.jpg",
     "static/media/Carlitos.94b1acb3.jpg": "/veterinariaestradamdp/static/media/Carlitos.94b1acb3.jpg",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.c8585e14.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.68fc2d30.chunk.js",
-    "static/css/main.ba38d947.chunk.css",
-    "static/js/main.4b1beceb.chunk.js"
+    "static/css/main.0d5a9923.chunk.css",
+    "static/js/main.17224be6.chunk.js"
   ]
 }
