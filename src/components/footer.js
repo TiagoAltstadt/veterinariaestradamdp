@@ -20,7 +20,8 @@ function Footer() {
           <p>Whatsapp</p>
         </a>
       </div>
-      <div className="footerRight">
+      {/*
+       <div className="footerRight">
         <p>Clínica Veterinaria Estrada. </p>
           <p>🐾Clínica Gral </p>
           <p>🐾Cirugía </p>
@@ -28,7 +29,8 @@ function Footer() {
           <p>🐾Citología.</p>
           <p>🐾Laboratorio básico. </p>
           <p>🐾Diagnóstico por imágenes.</p>
-      </div>
+        </div> 
+      */}
     </section>
   );
 }

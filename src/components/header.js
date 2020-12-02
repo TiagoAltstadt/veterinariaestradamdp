@@ -40,13 +40,18 @@ function Header() {
             <Link to="/veterinariaestradamdp/location">Ubicacion</Link>
           </div>
 
-          {/*----Links Button----*/}
+          {/*----Hamburguer----*/}
+            <div className="headerMenuSign">
+              <p>Menu! <i class="arrow right"></i></p>
+            </div>
+
+          {/*----Hamburguer----*/}
           <a
             href="javascript:void(0);"
             className="icon"
             onClick={() => myFunction()}
           >
-            <p className="headerHamburguer">🐾</p>
+            <p className="headerHamburguer">☰</p>
           </a>
         </section>
 

@@ -51,13 +51,51 @@
         margin: 0.1rem 0%;
         margin-left: 0.5rem;
       }
+    .headerMenuSign{
+      position: absolute;
+      top: 1.5vh;
+      right: 20vw;
+      width: fit-content;
+      height: fit-content;
+      padding: 0% 2%;
+      background-color: white;
+      border-radius: 5px;
+      display: block;
+      animation: shake 2s;
+      animation-iteration-count: infinite;
+
+
+    }.headerMenuSign p{margin: 0%;}
+    .arrow {
+      border: solid black;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+    }
+    .right {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+    @keyframes shake {
+      0% { transform: translate(1px, 0)  }
+      10% { transform: translate(-1px, -0) ; }
+      20% { transform: translate(-3px, 0)  }
+      30% { transform: translate(3px, 0)  }
+      40% { transform: translate(1px, -0)  }
+      50% { transform: translate(-1px, 0) ; }
+      60% { transform: translate(-3px, 0)  }
+      70% { transform: translate(3px, 0) ; }
+      80% { transform: translate(-1px, -0)  }
+      90% { transform: translate(1px, 0)  }
+      100% { transform: translate(1px, -0) ; }
+    }
     .headerHamburguer{
       background-color: var(--primary-color);
-      margin: 0%;
+      color: black;
+      margin: 0.4rem;
       padding-right: 2vw;
-      line-height: 10vh;
       font-size: x-large;
-    }
+    }.headerHamburguer:hover{background-color: violet;}
 
   /* Hide the links inside the navigation menu (except for logo/home) */
   .body #myLinks {
@@ -206,7 +244,9 @@
     background-color: blue;
     border-radius: 5px;
     margin: 0%;
-    height: fit-content;
+    height: 100%;
+    width: 100%;
+    padding: 2rem 1rem;
   }
 
   @media all and (min-width:720px){
@@ -336,23 +376,27 @@
   width: 100vw;
   height: fit-content;
   background-color: black;
+  padding: 0%;
 }
 
   .footerLeft{
-    display: block;
-    box-sizing: border-box;
-    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100vw;
     margin: 0%;
+    padding: 0%;
   }
-    .footerSNcontainer{
-      font-family: 'Comfortaa', cursive;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      margin: 0%;
-      color: white;
-      width: fit-content;
-    }
+  .footerSNcontainer{
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0%;
+    color: white;
+    width: fit-content;
+  }
       .footerSNcontainer p {
         width: fit-content;
         margin: auto 0%;
