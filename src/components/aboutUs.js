@@ -1,26 +1,29 @@
 import Badge from "./badge.js";
 import img1 from "../public/images/badges/Default.jpg";
+import Nico from '../public/images/badges/Nico.jpg';
+import Cris from '../public/images/badges/Cris.jpg';
+import Carlitos from '../public/images/badges/Carlitos.jpg';
 function AboutUs() {
   return (
     <section className=" AboutUs">
       <section className="aboutUsBadges">
       <Badge
-          img={img1}
+          img={Nico}
           name="Nicolas Morteo"
-          rol="Cirujano"
-          description="Descripcion de Nico"
+          rol=""
+          description=""
         />
         <Badge
-          img={img1}
-          name="Cris"
-          rol="Anestecista"
-          description="Descripcion de Cris"
+          img={Cris}
+          name="Cristian Monte"
+          rol=""
+          description=""
         />
         <Badge
-          img={img1}
-          name="Carlos"
-          rol="Ecografias"
-          description="Descripcion de Carlitos"
+          img={Carlitos}
+          name="Carlos Aragón"
+          rol=""
+          description=""
         />
         
       </section>

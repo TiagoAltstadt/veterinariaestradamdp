@@ -1,8 +1,9 @@
+import img from '../public/images/underconst-1.png';
 
 function Mission(){
     return(
         <section>
-            <h1>Que hacemos?</h1>
+            <img src={img}></img>
         </section>
     );
 }

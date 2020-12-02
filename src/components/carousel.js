@@ -5,13 +5,13 @@ import carousel2 from "../public/images/cris.jpg";
 import carousel3 from "../public/images/3.jpg";
 
     const title1 = 'Nico';
-    const description1 = 'descripcion 1';
+    const description1 = '';
 
     const title2 = 'Cris';
-    const description2 = 'descripcion 2';
+    const description2 = '';
 
     const title3 = 'Charly';
-    const description3 = 'descripcion 3';
+    const description3 = '';
 
 function CarouselOK(){
 
