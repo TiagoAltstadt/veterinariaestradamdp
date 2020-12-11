@@ -12,9 +12,8 @@ function Map() {
   const mapContainerStyle = {
     display: "block",
     boxsizing: "border-box",
-    width: "40vw",
-    heigth: "25vh",
-    
+    width: "40%",
+    heigth: "20vw"    
   };
   const center = {
     lat: -37.9519,
@@ -25,8 +24,8 @@ function Map() {
     libraries,
   });
 
-  if (loadError) return "Error loading maps";
-  if (!isLoaded) return "Loading maps";
+  if (loadError) return "Algo salio mal con el mapa...";
+  if (!isLoaded) return "Cargando mapa...";
 
   return (
     <GoogleMap mapContainerStyle={mapContainerStyle} zoom={15} center={center}>

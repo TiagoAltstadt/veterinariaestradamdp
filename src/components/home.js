@@ -17,7 +17,7 @@ function Home() {
         </a>
         <Map />
       </div>
-      <div></div>
+
     </section>
   );
 }

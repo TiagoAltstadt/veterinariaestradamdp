@@ -48,6 +48,7 @@
         border-radius: 50px;
         justify-self: left;
         width: 15vw;
+        max-width: 80px;
         margin: 0.1rem 0%;
         margin-left: 0.5rem;
       }
@@ -90,15 +91,17 @@
       100% { transform: translate(1px, -0) ; }
     }
     .headerHamburguer{
+      width: 35px;
       background-color: var(--primary-color);
       color: black;
       margin: 0.4rem;
+      margin-right: 1rem;
       padding-right: 2vw;
       font-size: x-large;
     }.headerHamburguer:hover{background-color: violet;}
 
   /* Hide the links inside the navigation menu (except for logo/home) */
-  .body #myLinks {
+  .body #myLinks1 {
     display: none;
   }
 
@@ -128,72 +131,83 @@
     color: black;
   }
   
-  
-
-@media all and (min-width:720px){
+  /*--------480px--------*/
+@media all and (min-width: 480px){
   .body {}
-    .header{
-      overflow: hidden;
-      position: relative;
+  .header{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: var(--primary-color);
+
+  }
+    .headerLogo{
       display: flex;
       flex-wrap: wrap;
-      flex-direction: column;
-      background-color: var(--primary-color);
-
+      flex-direction: row;
+      float: left;
+      padding: 0%;
+      margin: 0%;
+      
     }
-      .headerLogo{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        padding: 0%;
-        margin: 0%;
+      .headerImage{
+        border-radius: 50px;
+        justify-self: left;
+        width: 15vw;
+        max-width: 80px;
+        margin: 0.1rem 0%;
+        margin-left: 0.5rem;
       }
-        .headerImage{
-          border-radius: 50px;
-          justify-self: left;
-          width: 107px;
-          margin: 0.1rem 0%;
-          margin-left: 0.5rem;
-        }
-      .headerHamburguer{
-        background-color: var(--primary-color);
-        margin: auto 0%;
-        padding-right: 2vw;
-        line-height: 100%;
-        font-size: xx-large;
-      }
-
-    /* Hide the links inside the navigation menu (except for logo/home) */
-    .body #myLinks {
+    .headerMenuSign{display: none;}
+    .headerHamburguer{
       display: none;
-    }
-
-    /* Style navigation menu links */
-    .body a {
-      color: white;
-      text-decoration: none;
-      font-size: 17px;
-      display: block;
-    }
-
-    /* Style the hamburger menu */
-    .body a.icon {
-      background:  var(--primary-color);
-      display: block;
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .fa-paw{
-      color: var(--primary-color);
-    }
-
-    /* Add a grey background color on mouse-over */
-    .body a:hover {
-      background-color: violet;
+      width: 35px;
+      background-color: var(--primary-color);
       color: black;
-    }
+      margin: 0.4rem;
+      margin-right: 1rem;
+      padding-right: 2vw;
+      font-size: x-large;
+    }.headerHamburguer:hover{background-color: violet;}
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .body #myLinks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    right: 0vw;
+    margin: auto;
+  }
+
+  /* Style navigation menu links */
+  .body a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin: auto 10px;
+  }
+
+  /* Style the hamburger menu */
+  .body a.icon {
+    background:  var(--primary-color);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .fa-paw{
+    color: var(--primary-color);
+  }
+
+  /* Add a grey background color on mouse-over */
+  .body a:hover {
+    background-color: violet;
+    color: black;
+  }
 }
+
 
 
 /*------------------------------------------------------------Home------------------------------------------------------------*/
@@ -209,7 +223,7 @@
   .homeCarousel{
     display: block;
     box-sizing: border-box;
-    width: 100vw;
+    max-width: 500px;
   }
     .homeCarouselImage{
       width: 100%;
@@ -249,7 +263,7 @@
     padding: 2rem 1rem;
   }
 
-  @media all and (min-width:720px){
+  @media all and (min-width: 480px){
     .Home{
       display: flex;
       flex-wrap: wrap;
@@ -257,10 +271,18 @@
       margin:  0%;
       background-color: var(--secondary-color);
     }
-    
-        .carousel{
-          width: 710px;
-          margin: 1% auto;
+      .carousel{
+        max-width: 500px;
+        margin: 1% auto;
+
+      }
+      .homeCarousel{
+        display: block;
+        box-sizing: border-box;
+        max-width: 500px;
+      }
+        .homeCarouselImage{
+          width: 100%;
         }
         .homeCarouselTitle{
           background-color: rgba(0, 0, 0, 0.5);
@@ -283,14 +305,62 @@
       .homeAptLink{
         height: 100%;
         width: 40vw;
+        align-content: center;
+        justify-content: center;
+      }
+      .homeAptButton{
+        display: block;
+        box-sizing: border-box;
+        background-color: blue;
+        border-radius: 5px;
+        margin: 0%;
+        height: 100%;
+        width: 100%;
+        padding: 2rem 1rem;
+      }
+  }
+
+
+  @media all and (min-width:720px){
+    .Home{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin:  0%;
+      background-color: var(--secondary-color);
+    }
+    
+        .carousel{
+          max-width: 500px;
+          margin: 1% auto;
+        }
+        .homeCarouselTitle{
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+        .homeCarouselDescription{
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+    
+      .homeVeteInfo{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: fit-content;
+        margin: 3px;
+        border: black solid 1px;
+        height: 500px;
+      }
+      .homeAptLink{
+        width: fit-content;
+      }
+      a.homeAptLink{
+        height: 10px;
+        margin: 0%;
       }
       .homeAptButton{
         background-color: blue;
-        align-self: center;
-        justify-self: center;
-        align-content: center;
-        justify-content: center;
         border-radius: 5px;
+        height: fit-content;
       }
   }
 /*------------------------------------------------------------About Us------------------------------------------------------------*/

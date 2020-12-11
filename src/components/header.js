@@ -30,8 +30,15 @@ function Header() {
             <Link to="/veterinariaestradamdp/">
               <img className="headerImage" src={img}></img>
             </Link>
-          </div>
 
+          {/*----Links----*/}
+          <div id="myLinks1">
+            <Link to="/veterinariaestradamdp/">Home</Link>
+            <Link to="/veterinariaestradamdp/aboutUs">¿Quienes somos?</Link>
+            <Link to="/veterinariaestradamdp/mission">¿Que hacemos?</Link>
+            <Link to="/veterinariaestradamdp/location">Ubicacion</Link>
+          </div>
+          </div>
           {/*----Links----*/}
           <div id="myLinks">
             <Link to="/veterinariaestradamdp/">Home</Link>
