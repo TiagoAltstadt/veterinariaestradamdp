@@ -3,6 +3,7 @@ import img1 from "../public/images/badges/Default.jpg";
 import Nico from '../public/images/badges/Nico.jpg';
 import Cris from '../public/images/badges/Cris.jpg';
 import Carlitos from '../public/images/badges/Carlitos.jpg';
+import Caro from '../public/images/badges/Caro.jpg';
 function AboutUs() {
   return (
     <section className=" AboutUs">
@@ -25,7 +26,12 @@ function AboutUs() {
           rol=""
           description=""
         />
-        
+        <Badge
+          img={Caro}
+          name="Carolina RePerreros"
+          rol=""
+          description=""
+        />
       </section>
     </section>
   );
