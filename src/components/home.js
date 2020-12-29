@@ -2,11 +2,10 @@ import CarouselOK from "./carousel.js";
 import Map from "./map.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Home() {
+function Home() { //this is called a functional component
   return (
     <section className="Home">
-      <CarouselOK />
-
+       <section className="carouselClass"><CarouselOK /></section>
 
       <div className="homeVeteInfo">
         <a
@@ -21,5 +20,4 @@ function Home() {
     </section>
   );
 }
-
 export default Home;

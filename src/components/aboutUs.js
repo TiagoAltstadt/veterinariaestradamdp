@@ -28,8 +28,8 @@ function AboutUs() {
         />
         <Badge
           img={Caro}
-          name="Carolina RePerreros"
-          rol=""
+          name="Carolina"
+          rol="Reperreros"
           description=""
         />
       </section>

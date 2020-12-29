@@ -104,6 +104,9 @@
   .body #myLinks1 {
     display: none;
   }
+  .body #myLinks{
+    display: none;
+  }
 
   /* Style navigation menu links */
   .body a {
@@ -132,7 +135,7 @@
   }
   
   /*--------480px--------*/
-@media all and (min-width: 480px){
+@media all and (min-width: 527px){
   .body {}
   .header{
     overflow: hidden;
@@ -218,6 +221,7 @@
   flex-direction: column;
   margin:  0%;
   background-color: var(--secondary-color);
+  height: 100%;
 }
 
   .homeCarousel{
@@ -262,6 +266,16 @@
     width: 100%;
     padding: 2rem 1rem;
   }
+
+/*----------Map----------*/
+  #mapContainerStyle{
+    display: block;
+    box-sizing: border-box;
+    width: 40vw;
+    height: 100%;
+    margin: 0;
+    border-radius: 5px
+  };
 
   @media all and (min-width: 480px){
     .Home{
@@ -438,7 +452,7 @@
 /*------------------------------------------------------------Footer------------------------------------------------------------*/
 
 .Footer{
-  position: relative;
+  position: static;
   bottom: 0vh;
   display: flex;
   flex-wrap: wrap;

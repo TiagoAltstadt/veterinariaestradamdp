@@ -9,12 +9,7 @@ import {
 
 function Map() {
   const libraries = ["places"];
-  const mapContainerStyle = {
-    display: "block",
-    boxsizing: "border-box",
-    width: "40%",
-    heigth: "20vw"    
-  };
+  
   const center = {
     lat: -37.9519,
     lng: -57.55416,
@@ -28,7 +23,7 @@ function Map() {
   if (!isLoaded) return "Cargando mapa...";
 
   return (
-    <GoogleMap mapContainerStyle={mapContainerStyle} zoom={15} center={center}>
+    <GoogleMap id='mapContainerStyle' zoom={15} center={center}>
       <Marker
         key="Veterinaria Estrada"
         position={{
