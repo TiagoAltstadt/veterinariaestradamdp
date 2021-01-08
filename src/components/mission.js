@@ -2,7 +2,7 @@ import img from '../public/images/underconst-1.png';
 
 function Mission(){
     return(
-        <section>
+        <section className="Mission">
             <img src={img}></img>
         </section>
     );

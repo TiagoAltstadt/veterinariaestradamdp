@@ -5,17 +5,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Home() { //this is called a functional component
   return (
     <section className="Home">
-       <section className="carouselClass"><CarouselOK /></section>
+      <section className="carouselClass"><CarouselOK /></section>
 
-      <div className="homeVeteInfo">
-        <a
-          target="_blank"
-          href="https://veterinariaestrada4852.setmore.com/"
-          className="homeAptLink"
-        ><h2 className="homeAptButton">Turnos</h2>
-        </a>
+      <section id="homeVeteInfo">
+        <div id="home_turno">
+          <h4>Ahora podes pedir turno online!</h4>
+          <a href="https://veterinariaestrada4852.setmore.com/">
+            <h5>Haceme click!</h5>
+          </a>
+        </div>
         <Map />
-      </div>
+      </section>
 
     </section>
   );

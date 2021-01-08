@@ -7,11 +7,11 @@ function Footer() {
     <section className="Footer">
       <div className="footerLeft">
         
-        <a className="footerSNcontainer" href="https://www.facebook.com/Cl%C3%ADnica-Veterinaria-Nueva-Estrada-2245260169041606/">
+        <a className="footerSNcontainer" href="https://www.facebook.com/Cl%C3%ADnica-Veterinaria-Nueva-Estrada-2245260169041606">
           <img className="footerSNimage" src={face}></img>
           <p>Facebook</p>
         </a>
-        <a className="footerSNcontainer" href="https://www.facebook.com/Cl%C3%ADnica-Veterinaria-Nueva-Estrada-2245260169041606/">
+        <a className="footerSNcontainer" href="https://www.instagram.com/veterinarianuevaestrada/">
           <img className="footerSNimage" src={insta}></img>
           <p>Instagram</p>
         </a>

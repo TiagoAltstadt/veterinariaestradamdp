@@ -2,61 +2,79 @@
 import Home from "./home.js";
 import AboutUs from "./aboutUs.js";
 import Mission from "./mission.js";
-import Location from "./location.js";
+import Contact from "./contact.js";
 import Appointments from "./appointments.js";
 
 /*----Media----*/
 import img from "../public/images/veterinariaestradamdpLogo.jpg";
+import Bone from "../public/images/bone.png"
 
 /*----React-router-dom----*/
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function Header() {
-  function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
+  {/* Functions */ }
+  function magicSidebar() {
+    var sidebar = document.getElementById("header_sidebar");
+    var blurr = document.getElementById("header_sidebar_blurr");
+
+    if (sidebar.style.right === "-100vw") {
+      console.log("Show Sidebar");
+      console.log("    blurr", blurr.style.left);
+      console.log("    sidebar", sidebar.style.right);
+      sidebar.style.right = "-0vw";
+      blurr.style.right = "0vw";
     } else {
-      x.style.display = "block";
+      console.log("Hide Sidebar");
+      console.log("    sidebar", sidebar.style.right);
+      console.log("    blurr", blurr.style.left);
+      sidebar.style.right = "-100vw";
+      blurr.style.right = "-100vw";
     }
   }
 
   return (
     <div className="body">
       <Router>
+
         <section className="header">
+          <section>
+            <section id="header_sidebar_blurr"></section>
+            <section id="header_sidebar">
+
+              <Link to="/veterinariaestradamdp/" className="header_sidebar_item">
+              <img src={Bone} className="image"/><p className="text">Home</p>
+              </Link>
+              <Link to="/veterinariaestradamdp/mission" className="header_sidebar_item">
+              <img src={Bone} className="image"/><p className="text">Que hacemos</p>
+              </Link>
+              <Link to="/veterinariaestradamdp/aboutUs" className="header_sidebar_item">
+              <img src={Bone} className="image"/><p className="text">Quienes somos</p>
+              </Link>
+              <Link to="/veterinariaestradamdp/contact" className="header_sidebar_item">
+              <img src={Bone} className="image"/><p className="text">Contacto</p>
+              </Link>
+
+            </section>
+          </section>
+
           {/*----Logo----*/}
           <div className="headerLogo">
             <Link to="/veterinariaestradamdp/">
               <img className="headerImage" src={img}></img>
             </Link>
-
-          {/*----Links----*/}
-          <div id="myLinks1">
-            <Link to="/veterinariaestradamdp/">Home</Link>
-            <Link to="/veterinariaestradamdp/aboutUs">¿Quienes somos?</Link>
-            <Link to="/veterinariaestradamdp/mission">¿Que hacemos?</Link>
-            <Link to="/veterinariaestradamdp/location">Ubicacion</Link>
-          </div>
-          </div>
-          {/*----Links----*/}
-          <div id="myLinks">
-            <Link to="/veterinariaestradamdp/">Home</Link>
-            <Link to="/veterinariaestradamdp/aboutUs">¿Quienes somos?</Link>
-            <Link to="/veterinariaestradamdp/mission">¿Que hacemos?</Link>
-            <Link to="/veterinariaestradamdp/location">Ubicacion</Link>
           </div>
 
-          {/*----Hamburguer----*/}
-            <div className="headerMenuSign">
-              <p>Menu! <i class="arrow right"></i></p>
-            </div>
+          {/*----Hamburguer Msg----*/}
+          <div className="headerMenuSign">
+            <p>Menu! <i class="arrow right"></i></p>
+          </div>
 
           {/*----Hamburguer----*/}
           <a
             href="javascript:void(0);"
             className="icon"
-            onClick={() => myFunction()}
+            onClick={() => magicSidebar()}
           >
             <p className="headerHamburguer">☰</p>
           </a>
@@ -72,8 +90,8 @@ function Header() {
           <Route path="/veterinariaestradamdp/mission">
             <Mission />
           </Route>
-          <Route path="/veterinariaestradamdp/location">
-            <Location />
+          <Route path="/veterinariaestradamdp/contact">
+            <Contact />
           </Route>
           <Route path="/veterinariaestradamdp/appointments">
             <Appointments />
