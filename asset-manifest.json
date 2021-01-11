@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/veterinariaestradamdp/static/css/main.157c836f.chunk.css",
-    "main.js": "/veterinariaestradamdp/static/js/main.6bc3d6c4.chunk.js",
-    "main.js.map": "/veterinariaestradamdp/static/js/main.6bc3d6c4.chunk.js.map",
+    "main.css": "/veterinariaestradamdp/static/css/main.a870d7a2.chunk.css",
+    "main.js": "/veterinariaestradamdp/static/js/main.5a0cc164.chunk.js",
+    "main.js.map": "/veterinariaestradamdp/static/js/main.5a0cc164.chunk.js.map",
     "runtime-main.js": "/veterinariaestradamdp/static/js/runtime-main.890f4445.js",
     "runtime-main.js.map": "/veterinariaestradamdp/static/js/runtime-main.890f4445.js.map",
     "static/css/2.60c0a443.chunk.css": "/veterinariaestradamdp/static/css/2.60c0a443.chunk.css",
-    "static/js/2.6506f847.chunk.js": "/veterinariaestradamdp/static/js/2.6506f847.chunk.js",
-    "static/js/2.6506f847.chunk.js.map": "/veterinariaestradamdp/static/js/2.6506f847.chunk.js.map",
+    "static/js/2.dbda5d18.chunk.js": "/veterinariaestradamdp/static/js/2.dbda5d18.chunk.js",
+    "static/js/2.dbda5d18.chunk.js.map": "/veterinariaestradamdp/static/js/2.dbda5d18.chunk.js.map",
     "static/js/3.7d9787b1.chunk.js": "/veterinariaestradamdp/static/js/3.7d9787b1.chunk.js",
     "static/js/3.7d9787b1.chunk.js.map": "/veterinariaestradamdp/static/js/3.7d9787b1.chunk.js.map",
     "index.html": "/veterinariaestradamdp/index.html",
     "static/css/2.60c0a443.chunk.css.map": "/veterinariaestradamdp/static/css/2.60c0a443.chunk.css.map",
-    "static/css/main.157c836f.chunk.css.map": "/veterinariaestradamdp/static/css/main.157c836f.chunk.css.map",
-    "static/js/2.6506f847.chunk.js.LICENSE.txt": "/veterinariaestradamdp/static/js/2.6506f847.chunk.js.LICENSE.txt",
+    "static/css/main.a870d7a2.chunk.css.map": "/veterinariaestradamdp/static/css/main.a870d7a2.chunk.css.map",
+    "static/js/2.dbda5d18.chunk.js.LICENSE.txt": "/veterinariaestradamdp/static/js/2.dbda5d18.chunk.js.LICENSE.txt",
     "static/media/3.7775456b.jpg": "/veterinariaestradamdp/static/media/3.7775456b.jpg",
     "static/media/Carlitos.94b1acb3.jpg": "/veterinariaestradamdp/static/media/Carlitos.94b1acb3.jpg",
     "static/media/Caro.35f4b0f9.jpg": "/veterinariaestradamdp/static/media/Caro.35f4b0f9.jpg",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.890f4445.js",
     "static/css/2.60c0a443.chunk.css",
-    "static/js/2.6506f847.chunk.js",
-    "static/css/main.157c836f.chunk.css",
-    "static/js/main.6bc3d6c4.chunk.js"
+    "static/js/2.dbda5d18.chunk.js",
+    "static/css/main.a870d7a2.chunk.css",
+    "static/js/main.5a0cc164.chunk.js"
   ]
 }
