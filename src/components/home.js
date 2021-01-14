@@ -1,11 +1,19 @@
 import CarouselOK from "./carousel.js";
 import Map from "./map.js";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import ReactPlayer from "react-player";
 
-function Home() { //this is called a functional component
+function Home() {
+  //this is called a functional component
   return (
     <section className="Home">
-      <section className="carouselClass"><CarouselOK /></section>
+      <section id="carouselClass">
+        <CarouselOK />
+      </section>
+
+      <section id="homeVideo">
+        <ReactPlayer url="https://www.youtube.com/watch?v=yCouD90SvB0" width="40vw" />
+      </section>
 
       <section id="homeVeteInfo">
         <div id="home_turno">
@@ -16,7 +24,6 @@ function Home() { //this is called a functional component
         </div>
         <Map />
       </section>
-
     </section>
   );
 }
