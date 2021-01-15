@@ -12,7 +12,7 @@ function Home() {
       </section>
 
       <section id="homeVideo">
-        <ReactPlayer url="https://www.youtube.com/watch?v=yCouD90SvB0" width="40vw" />
+        <ReactPlayer loop="true" playing="true" muted="true" url="https://www.youtube.com/watch?v=yCouD90SvB0" width="40vw" />
       </section>
 
       <section id="homeVeteInfo">

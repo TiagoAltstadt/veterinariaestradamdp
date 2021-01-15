@@ -44,7 +44,7 @@ a:link{
         position: fixed;
         border-radius: 50px;
         justify-self: left;
-        max-width: 80px;
+        max-width: 75px;
         margin: 0.1rem 0%;
         left: 0vw;
       }
@@ -364,6 +364,7 @@ a:link{
           margin: 1vh 2vw;
           background-color: black;
           width: 45vw;
+          max-width: 200px;
           height: fit-content;
         }
         .badgeImage{
@@ -371,11 +372,13 @@ a:link{
           flex-wrap: wrap;
           flex-direction: column;
           width: 45vw;
+          max-width: 200px;
           height: fit-content;
-          background-color: red;
+          background-color: transparent;
         }
           .badgeFile{
             width: 45vw; 
+            max-width: 200px;
             height: fit-content; 
             object-fit: cover;
           }
@@ -462,6 +465,7 @@ a:link{
       }
       .footerSNimage{
         width: 10vw;
+        max-width: 60px;
         margin: 0%;
       }
 

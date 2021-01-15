@@ -20,9 +20,9 @@ function Footer() {
           <p>Whatsapp</p>
         </a>
       </div>
-      <section id="version">
-        v2.2
-      </section>
+      {/* <section id="version">
+        v2.3
+      </section> */}
       {/*
        <div className="footerRight">
         <p>Clínica Veterinaria Estrada. </p>
