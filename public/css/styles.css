@@ -3,7 +3,6 @@
 /*------------------------------------------------------------App------------------------------------------------------------*/
 
 .App {
-  
   --primary-color:  rgb(226, 108, 210);
   --secondary-color: pink;
 
@@ -364,19 +363,22 @@ a:link{
           box-sizing: border-box;
           margin: 1vh 2vw;
           background-color: black;
-          width: 200px;
+          width: 45vw;
+          max-width: 200px;
           height: fit-content;
         }
         .badgeImage{
           display: flex;
           flex-wrap: wrap;
           flex-direction: column;
-          width: 200px;
+          width: 45vw;
+          max-width: 200px;
           height: fit-content;
           background-color: transparent;
         }
           .badgeFile{
-            width: 200px; 
+            width: 45vw; 
+            max-width: 200px;
             height: fit-content; 
             object-fit: cover;
           }
@@ -429,17 +431,27 @@ a:link{
 
 .Footer{
   position: static;
-  bottom: 0px;
+  bottom: 0vh;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   width: 100vw;
   height: fit-content;
   background-color: black;
-  align-items: center;
-  
+  padding: 0%;
 }
+
+  .footerLeft{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+  }
   .footerSNcontainer{
+    font-family: 'Comfortaa', cursive;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -452,6 +464,31 @@ a:link{
         margin: auto 0%;
       }
       .footerSNimage{
-        width: 50px;
+        width: 10vw;
+        max-width: 60px;
         margin: 0%;
       }
+
+  .footerRight{
+    display: block;
+    box-sizing: border-box;
+    width: 49vw;
+    margin: 0%;
+  }
+  .footerRight p{
+    font-size: x-small;
+    color: white;
+    width: fit-content;
+    justify-self: left;
+    margin: 0%;  
+  }
+
+  #version{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: 0vw;
+    color: rgb(54, 54, 54);
+    
+  }
+  

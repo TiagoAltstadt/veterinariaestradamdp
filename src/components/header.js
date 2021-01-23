@@ -42,16 +42,16 @@ function Header() {
             <section id="header_sidebar_blurr"></section>
             <section id="header_sidebar">
 
-              <Link to="/veterinariaestradamdp/" className="header_sidebar_item">
+              <Link to="/" className="header_sidebar_item">
               <img src={Bone} className="image"/><p className="text">Home</p>
               </Link>
-              <Link to="/veterinariaestradamdp/mission" className="header_sidebar_item">
+              <Link to="/mission" className="header_sidebar_item">
               <img src={Bone} className="image"/><p className="text">Que hacemos</p>
               </Link>
-              <Link to="/veterinariaestradamdp/aboutUs" className="header_sidebar_item">
+              <Link to="/aboutUs" className="header_sidebar_item">
               <img src={Bone} className="image"/><p className="text">Quienes somos</p>
               </Link>
-              <Link to="/veterinariaestradamdp/contact" className="header_sidebar_item">
+              <Link to="/contact" className="header_sidebar_item">
               <img src={Bone} className="image"/><p className="text">Contacto</p>
               </Link>
 
@@ -60,10 +60,10 @@ function Header() {
 
           {/*----Logo----*/}
           <div className="headerLogo">
-            <Link to="/veterinariaestradamdp/">
+            <Link to="/">
               <img className="headerImage" src={img}></img>
             </Link>
-          </div>
+          </div> 
 
           {/*----Hamburguer Msg----*/}
           <div className="headerMenuSign">
@@ -81,19 +81,19 @@ function Header() {
         </section>
 
         <Switch>
-          <Route exact path="/veterinariaestradamdp/">
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/veterinariaestradamdp/aboutUs">
+          <Route path="/aboutUs">
             <AboutUs />
           </Route>
-          <Route path="/veterinariaestradamdp/mission">
+          <Route path="/mission">
             <Mission />
           </Route>
-          <Route path="/veterinariaestradamdp/contact">
+          <Route path="/contact">
             <Contact />
           </Route>
-          <Route path="/veterinariaestradamdp/appointments">
+          <Route path="/appointments">
             <Appointments />
           </Route>
         </Switch>

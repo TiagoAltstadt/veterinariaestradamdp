@@ -3,6 +3,7 @@ import Map from "./map.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ReactPlayer from "react-player";
 
+
 function Home() {
   //this is called a functional component
   return (
@@ -12,7 +13,7 @@ function Home() {
       </section>
 
       <section id="homeVideo">
-        <ReactPlayer loop="true" playing="true" muted="true" url="https://www.youtube.com/watch?v=yCouD90SvB0" width="40vw" />
+        <ReactPlayer loop="true" muted="true" url="https://www.youtube.com/watch?v=yCouD90SvB0" width="40vw" />
       </section>
 
       <section id="homeVeteInfo">
@@ -23,6 +24,7 @@ function Home() {
           </a>
         </div>
         <Map />
+        
       </section>
     </section>
   );

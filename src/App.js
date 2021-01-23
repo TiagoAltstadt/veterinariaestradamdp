@@ -4,6 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/header.js";
 import Footer from "./components/footer.js";
 
+<link rel="preconnect" href="https://fonts.gstatic.com"/>;
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"/>;
 
 /* api google maps: AIzaSyAMFQlsVHkIZgXobf-CdYQEGNdvkxTaCZs */
 <link
@@ -17,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      
+
       <Footer />
     </div>
   );
