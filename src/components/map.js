@@ -1,36 +1,25 @@
+/*-----Important Stuff-----*/
 import React from "react";
-import {
-  GoogleMap,
-  useLoadScript,
-  Marker,
-  InfoWindow,
-} from "@react-google-maps/api";
-/* api google maps: AIzaSyAMFQlsVHkIZgXobf-CdYQEGNdvkxTaCZs */
+import { GoogleMap, useLoadScript, Marker} from "@react-google-maps/api";
 
 function Map() {
+
   const libraries = ["places"];
   
-  const center = {
-    lat: -37.9519,
-    lng: -57.55416,
-  };
+  const objective = { lat: -37.9519, lng: -57.55416};
+
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyAMFQlsVHkIZgXobf-CdYQEGNdvkxTaCZs",
-    libraries,
+    googleMapsApiKey: "AIzaSyAMFQlsVHkIZgXobf-CdYQEGNdvkxTaCZs", libraries 
   });
 
-  if (loadError) return "Algo salio mal con el mapa...";
-  if (!isLoaded) return "Cargando mapa...";
+  if (loadError) return "Unfortunately, Maps got lost in its way here...";
+  if (!isLoaded) return "Maps is brewing some coffe...";
 
   return (
-    <GoogleMap id='mapContainerStyle' zoom={15} center={center}>
-      <Marker
-        key="Veterinaria Estrada"
-        position={{
-          lat: -37.9519,
-          lng: -57.55416,
-        }}
-      />
+    <GoogleMap id='mapContainerStyle' zoom={15} center={objective}>
+
+      <Marker key="Veterinaria Estrada" position={objective} />
+
     </GoogleMap>
   );
 }

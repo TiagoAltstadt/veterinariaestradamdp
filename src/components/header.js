@@ -1,4 +1,4 @@
-/*----Vistas----*/
+/*----Views----*/
 import Home from "./home.js";
 import AboutUs from "./aboutUs.js";
 import Mission from "./mission.js";
@@ -13,7 +13,7 @@ import Bone from "../public/images/bone.png"
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function Header() {
-  {/* Functions */ }
+  /*----Functions----*/
   function magicSidebar() {
     var sidebar = document.getElementById("header_sidebar");
     var blurr = document.getElementById("header_sidebar_blurr");
