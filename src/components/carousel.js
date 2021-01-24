@@ -16,7 +16,7 @@ import carousel3 from "../public/images/3.jpg";
 function CarouselOK(){
 
 return(
-    <Carousel indicators="false" className="w-75 ml-auto mr-auto mt-2 ">
+    <Carousel indicators={false} className="w-75 ml-auto mr-auto mt-2 ">
         <Carousel.Item>
           <img className="d-block w-100" src={carousel1} alt="First slide" />
           <Carousel.Caption>
