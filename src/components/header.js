@@ -1,10 +1,3 @@
-/*----Views----*/
-import Home from "./home.js";
-import AboutUs from "./aboutUs.js";
-import Mission from "./mission.js";
-import Contact from "./contact.js";
-import Appointments from "./appointments.js";
-
 /*----Media----*/
 import img from "../public/images/veterinariaestradamdpLogo.jpg";
 import Bone from "../public/images/bone.png"
@@ -35,10 +28,8 @@ function Header() {
 
   return (
     <div className="body">
-      <Router>
 
         <section className="header">
-          <section>
             <section id="header_sidebar_blurr"></section>
             <section id="header_sidebar">
 
@@ -56,8 +47,7 @@ function Header() {
               </Link>
 
             </section>
-          </section>
-
+          
           {/*----Logo----*/}
           <div className="headerLogo">
             <Link to="/">
@@ -79,26 +69,6 @@ function Header() {
             <p className="headerHamburguer">☰</p>
           </a>
         </section>
-
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/aboutUs">
-            <AboutUs />
-          </Route>
-          <Route path="/mission">
-            <Mission />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/appointments">
-            <Appointments />
-          </Route>
-        </Switch>
-      </Router>
-
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"

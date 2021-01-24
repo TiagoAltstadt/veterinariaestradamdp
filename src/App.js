@@ -3,8 +3,16 @@ import React from "react";
 import "./public/css/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+/*----React-router-dom----*/
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 /*----Views----*/
 import Header from "./components/header.js";
+import Home from "./components/home.js";
+import AboutUs from "./components/aboutUs.js";
+import Mission from "./components/mission.js";
+import Contact from "./components/contact.js";
+import Appointments from "./components/appointments.js";
 import Footer from "./components/footer.js";
 
 /*----Fonts----*/
@@ -21,11 +29,27 @@ import Footer from "./components/footer.js";
 function App() {
   return (
     <div className="App">
-      <Route>
+      <Router>
         <Header />
-
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/aboutUs">
+            <AboutUs />
+          </Route>
+          <Route path="/mission">
+            <Mission />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/appointments">
+            <Appointments />
+          </Route>
+        </Switch>
         <Footer />
-      </Route>
+      </Router>
     </div>
   );
 }
