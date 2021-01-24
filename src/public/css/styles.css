@@ -447,8 +447,8 @@ a:link{
     width: fit-content;
   }
       .footerSNcontainer p {
-        width: fit-content;
-        margin: auto 0%;
+       line-height: 30px;
+       margin: auto;
       }
       .footerSNimage{
         width: 50px;
